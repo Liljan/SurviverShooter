@@ -318,31 +318,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &1178467097 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1178467097, guid: a89fcbc8760d0984da2624e286c346f1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1447169924117275572}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1178467100
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178467097}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 015ced24108076540a392e24d8d66a60, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1790205805
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,19 +403,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1178467098, guid: a89fcbc8760d0984da2624e286c346f1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1178467098, guid: a89fcbc8760d0984da2624e286c346f1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.27
-      objectReference: {fileID: 0}
-    - target: {fileID: 1178467099, guid: a89fcbc8760d0984da2624e286c346f1, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 2629201091526078199, guid: e55f4b49ad633ea4295e638eb8d220f7,
-        type: 3}
     - target: {fileID: 130541675869282691, guid: a89fcbc8760d0984da2624e286c346f1,
         type: 3}
       propertyPath: m_Name
