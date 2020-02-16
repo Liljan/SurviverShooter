@@ -23,7 +23,7 @@ public class PlayerCustomization : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyUp("r"))
+        if(Input.GetKeyUp("1"))
         {
             m_Player.SetHead(m_Heads[Random.Range(0, m_Heads.Length)]);   
             m_Player.SetBody(m_Bodies[Random.Range(0, m_Bodies.Length)]);
