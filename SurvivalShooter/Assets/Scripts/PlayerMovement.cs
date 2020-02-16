@@ -33,5 +33,7 @@ public class PlayerMovement : MonoBehaviour
         movement.Normalize();
 
         m_RigidBody.velocity = m_Speed * movement;
+
+        m_LegsAnimator.SetFloat("Movement", movement.magnitude);
     }
 }

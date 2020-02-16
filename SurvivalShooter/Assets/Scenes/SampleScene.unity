@@ -511,6 +511,11 @@ PrefabInstance:
       propertyPath: m_RotationSegments
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1178467099, guid: a89fcbc8760d0984da2624e286c346f1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3372296744221354412, guid: e55f4b49ad633ea4295e638eb8d220f7,
+        type: 3}
     - target: {fileID: 130541675869282691, guid: a89fcbc8760d0984da2624e286c346f1,
         type: 3}
       propertyPath: m_Name
