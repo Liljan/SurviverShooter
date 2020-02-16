@@ -507,6 +507,10 @@ PrefabInstance:
       propertyPath: m_Body
       value: 
       objectReference: {fileID: 1346417310}
+    - target: {fileID: 1115475851, guid: a89fcbc8760d0984da2624e286c346f1, type: 3}
+      propertyPath: m_RotationSegments
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 130541675869282691, guid: a89fcbc8760d0984da2624e286c346f1,
         type: 3}
       propertyPath: m_Name

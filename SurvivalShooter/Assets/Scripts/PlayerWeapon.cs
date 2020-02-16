@@ -53,6 +53,9 @@ public class PlayerWeapon : MonoBehaviour
 
         float angle = -Vector2.SignedAngle(direction, -gameObject.transform.up);
 
-        m_Body.rotation = Quaternion.Euler(0.0f, 0.0f, angle);
+        float degreesPerSegment = 360.0f / m_RotationSegments;
+        float finalAngle = Mathf.Round(angle / degreesPerSegment) * degreesPerSegment;
+
+        m_Body.rotation = Quaternion.Euler(0.0f, 0.0f, finalAngle);
     }
 }
